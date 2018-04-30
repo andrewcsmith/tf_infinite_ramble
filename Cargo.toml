@@ -1,0 +1,14 @@
+[package]
+name = "tf_infinite_ramble"
+version = "0.1.0"
+authors = ["Andrew C. Smith <andrewchristophersmith@gmail.com>"]
+
+[dependencies]
+sample = "0.9.1"
+hound = "3.0"
+serde = "1.0"
+serde-pickle = "0.4"
+
+[dependencies.tensorflow]
+version = "0.8.0"
+features = ["tensorflow_gpu"]
